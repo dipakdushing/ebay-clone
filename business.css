@@ -1,0 +1,171 @@
+body{font-family: "Market Sans", Arial, sans-serif;}
+#signup{
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#container2{
+    width: 34%;
+ height: 700px;
+ /* border: 1px solid red; */
+ margin: auto;
+ margin-top:50px;
+}
+#notice2{
+    width: 75%;
+  height: 90px;
+  background-color: blue;
+  color: white;
+  padding-right: 5%;
+padding-top: 30px;
+padding-bottom: 30px;
+  padding-left: 20% ;
+}
+#notice2 a{
+    color: #82187c;
+   text-decoration: none; 
+}
+.align{
+             text-align: center;
+
+         }
+
+         #select{
+                margin-top: 10px;
+                margin-bottom: 10px;
+           padding-left:15%
+           
+           
+            }
+         .texts{
+             font-size:2.25rem;
+             font-weight: bold;
+             padding-bottom: 20px;
+             margin-top: 30px;
+            }
+            #Business_name{
+                padding: 2%;
+           height: 20px;
+           border-radius: 7px;
+           width: 95%;
+           margin:20px 0px;
+           border: 1px solid #949494;
+           color: #111820;
+           font-size: 1em;
+           font-weight: 300;
+           background-color: #f7f7f7;
+          
+            }
+            #Business_name::placeholder{color: black;}   
+            
+
+            #email{
+                width: 95%;
+                padding: 2%;
+           height: 20px;
+           border-radius: 7px;
+           width: 95%;
+           margin:20px 0px;
+           border: 1px solid #949494;
+           color: #111820;
+           font-size: 1em;
+           font-weight: 300;
+           background-color: #f7f7f7;
+            }
+            #email::placeholder{color: black;}  
+            #password{
+                width: 95%;
+                padding: 2%;
+           height: 20px;
+           border-radius: 7px;
+           width: 95%;
+           margin:20px 0px;
+           border: 1px solid #949494;
+           color: blue;
+           font-size: 1em;
+           font-weight: 300;
+           background-color: #f7f7f7;
+            }
+            #password::placeholder{color: black;} 
+            #conditions{
+                color: #767676;
+                font-size: 12px;
+                
+                margin-top: 20px;
+            }
+            #register{
+                color: #767676;
+                font-size: 12px; 
+                font-weight: bold;
+                
+            }
+            .button{
+                height: 50px;
+           border-radius: 25px;
+           width: 100%;
+           background-color: #999797;
+           color: white;
+   margin-top: 20px;
+           font-size: 20px;
+           border: 0px;
+           margin-bottom: 30px;
+       
+                  }
+                  .button:hover{
+                      background-color: blue;
+                  }
+                  .border{
+            margin-top: 50px;
+            
+            border-top: solid 1px #949494;
+           }
+           #copyright{
+                
+                margin: auto;
+               margin: top 200px;
+                font-size: 11px;
+                width: 70%;
+                     margin-bottom: 0px;
+                     margin-top: 50px;
+                    
+            }
+            #copyright a{
+                color: #707070;
+            }
+            #copyright img{ margin-top: 2px;
+         
+                width: 12px;
+            height: 12px;}
+            #nortondns{
+             
+                width: 80px;
+                height: 50px;
+            }
+            #residence{
+              width: 95%;
+              height: 40px;
+              border-radius: 7px;
+              width: 100%;
+             border: 1px solid #949494;
+            color: #111820;
+            font-size: 14px;
+            font-weight: 400;
+            align-items: center;
+            padding: 0 20px 0 16px;
+            border-radius: 6px;
+            background-color: #f7f7f7;
+    
+}
+.country_name{
+    font-size: 10px;
+    font-weight: bold;
+    color:  #767676;
+    /* padding-left: 2%; */
+}
+#feild_label{
+   
+    font-size: 14px;
+}
+.box{
+    margin-top: 20px;
+}

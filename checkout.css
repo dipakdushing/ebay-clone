@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(247, 247, 247);
+}
+#container-checkout {
+  display: flex;
+  padding: 0 12%;
+}
+#part1 {
+  flex: 7.6;
+  /* position: static; */
+}
+#part2 {
+  flex: 3.4;
+  margin-left: 20px;
+  height: fit-content;
+  position: sticky;
+  /* right: 12%; */
+  top: 0;
+  bottom: 0;
+  /* position: fixed; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#part1 > div,
+#part2 {
+  padding: 2% 2.5%;
+  /* margin-bottom: 20px; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  background-color: #ffffff;
+}
+#part1 h3 {
+  margin: 0;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+}
+.subtotal > p {
+  margin: 0;
+  /* padding-top: 10px; */
+}
+
+.subtotal > h4 {
+  margin: 0;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+#ttl-btn {
+  width: 100%;
+  color: white;
+  background-color: gray;
+  font-weight: bold;
+  height: 50px;
+  font-size: 16px;
+  border: 0;
+}
+.text-center {
+  text-align: center;
+  font-size: small;
+  color: red;
+}
+form input {
+  width: 47%;
+  border: 0;
+  border-bottom: 1px solid rgba(9, 30, 66, 0.25);
+  margin-bottom: 20px;
+  font-size: 14px;
+  height: 30px;
+}
+form select {
+  margin-bottom: 20px;
+  width: 47%;
+  border: 0;
+  border-bottom: 1px solid rgba(9, 30, 66, 0.25);
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#input3 input {
+  width: 31%;
+}
+form input::after {
+  border: 0;
+}
+#done-btn {
+  width: 20%;
+  height: 35px;
+  background-color: royalblue;
+  color: #ffffff;
+  border: 0;
+  font-weight: bold;
+}
+.mb2 {
+  margin-bottom: 20px;
+}
+.mb2 label {
+  /* margin-bottom: 20px; */
+  height: 20px;
+}
+input:focus {
+  outline: none !important;
+}
+select:focus {
+  outline: none !important;
+}
+#help {
+  /* border: 1px solid; */
+  height: fit-content;
+  /* width: 50px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: fixed;
+  right: 0.3%;
+  top: 10%;
+}
+#help > p {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  padding: 4px 10px;
+  color: white;
+  background-color: blue;
+}
+#q-mark > i {
+  /* height: 40px; */
+  font-size: 25px;
+  /* padding-top: 10px; */
+  /* text-align: center; */
+}
+#q-mark {
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
